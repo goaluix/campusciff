@@ -18,4 +18,27 @@ remote: Compressing objects: 100% (2/2), done.
 remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
 Receiving objects: 100% (3/3), done.
 Checking connectivity... done.
+```
+
+2. Subo al stage
 ```sh
+git add .
+```
+3. Commit inicial
+```sh
+$ git commit -m "commit inicial"
+```
+Salida:
+```sh
+[master 0253712] commit inicial
+ 1 file changed, 19 insertions(+)
+```
+
+4. Creo archivo y carpeta privada
+```sh
+$ echo "contraseña 1234" > privado.txt
+$ mkdir privada
+```
+
+5. Abro el editor vi y añado dos líneas para ue se ignoren ese archivo y carpeta
+
