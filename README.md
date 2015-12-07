@@ -42,15 +42,20 @@ $ mkdir privada
 
 5. Abro el editor vi y creo .gitignore con dos líneas para que se ignoren ese archivo y carpeta
 
-6. Subo .gitignore
+6. Creo 1.txt
+```sh
+$ echo "One" > 1.txt
+```
+
+7. Subo .gitignore y 1.txt
 ```sh
 $ git add .
 $ git commit -m "añadido .gitignore"
 ```
-
-7. Creo 1.txt
+8. Actualizo README.md
 ```sh
-$ echo "One" > 1.txt
+$ git add .
+$ git commit -m "actulizado README.md"
 ```
 
 
