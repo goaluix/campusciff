@@ -74,5 +74,8 @@ $ git log --oneline --decorate --graph --all
 * 0253712 commit inicial
 * 2e5d166 Initial commit
 
+12. Me posiciono de nuevo en master y hago merge con v0.2/2
+$ git checkout master
+$ git merge v0.2
 
 
