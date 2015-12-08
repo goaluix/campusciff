@@ -22,7 +22,7 @@ Checking connectivity... done.
 
 2. Subo al stage
 ```sh
-git add .
+$ git add .
 ```
 3. Commit inicial
 ```sh
@@ -57,6 +57,22 @@ $ git commit -m "añadido .gitignore"
 $ git add .
 $ git commit -m "actulizado README.md"
 ```
+
+9. Creo y subo etiquetas
+
+git tag v0.1
+git push --tag origin master
+   
+10. Creo rama v0.2 y me posiciono en ella
+$ git branch v0.2
+$ git checkout v0.2
+11. Compruebo que el head apunta a mi nueva rama
+$ git log --oneline --decorate --graph --all
+* ac67a3e (HEAD -> v0.2, origin/master, origin/HEAD, master) README.md actualizado
+* e5f5e49 (tag: v0.1) actulizado README.md
+* ef73f30 añadido .gitignore
+* 0253712 commit inicial
+* 2e5d166 Initial commit
 
 
 
