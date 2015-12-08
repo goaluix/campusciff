@@ -78,4 +78,32 @@ $ git log --oneline --decorate --graph --all
 $ git checkout master
 $ git merge v0.2
 
+13. Merge con conflicto
+Añado "Hola" a 1.txt
+$ echo "Hola" >> 1.txt
+$ git add .
+$ git commit -m "añadido hola a 1.txt"
+$ git checkout v0.2
+$ echo "adios" > 1.txt
+$ git add .
+$ git commit -m "añadido adios a 1.txt (v0.2)"
+$ git checkout master
+$ git merge v0.2
+Auto-merging 1.txt
+CONFLICT (content): Merge conflict in 1.txt
+Automatic merge failed; fix conflicts and then commit the result.
+$ cat 1.txt
+<<<<<<< HEAD
+One
+Hola
+=======
+adios
+>>>>>>> v0.2
+$ vi 1.txt
+$ cat 1.txt
+One
+Hola y adios
+
+
+
 
