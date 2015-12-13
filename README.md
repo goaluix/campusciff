@@ -47,8 +47,8 @@ Repositorio para las prácticas del módulo Data Science ToolKit, Máster Execut
 
 9. Creo y subo etiquetas
 	```sh
-	git tag v0.1
-	git push --tag origin master
+	$ git tag v0.1
+	$ git push --tag origin master
 	``` 
 10. Creo rama v0.2 y me posiciono en ella
 	```sh
@@ -66,7 +66,7 @@ Repositorio para las prácticas del módulo Data Science ToolKit, Máster Execut
 	* ef73f30 añadido .gitignore
 	* 0253712 commit inicial
 	* 2e5d166 Initial commit
-	$ git push origin master
+	$ git push origin v0.2
 	``` 
 12. Me posiciono de nuevo en master y hago merge con v0.2
 	```sh
