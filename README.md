@@ -129,4 +129,17 @@ $ git log --oneline --decorate --graph --all
 * 0253712 commit inicial
 * 2e5d166 Initial commit
 	```
+	
+17. Poner foto en el perfil. Desde la opción de profile
+	![alt text](https://github.com/goaluix/campusciff/blob/master/fotosubida.jpg "Profile github")
 
+18. Doble factor de autenticación. 
+	![alt text](https://github.com/goaluix/campusciff/blob/master/auth1.png "Autenticación")
+	Eligo sms. Github envía un código para validar.
+	![alt text](https://github.com/goaluix/campusciff/blob/master/auth2.png "Autenticación por sms")
+	Activado el doble factor de seguridad
+	![alt text](https://github.com/goaluix/campusciff/blob/master/auth3.png "Doble factor")
+
+19. Clave pública. Ya estaba añadida
+	![alt text](https://github.com/goaluix/campusciff/blob/master/ssh.png "ssh")
+	
