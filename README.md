@@ -180,8 +180,35 @@ $ git log --oneline --decorate --graph --all
 
 24. index.html
 
-	Creo un repositorio campusciff-goaluix dentro de la organización
+	Creo un repositorio campusciff-goaluix dentro de la organización. Añado un fichero index.html
+	```sh
+	$ git add .
+	$ git commit -m "subido index.html"
+	$ git push origin master
+	```	
+	Ver http://campusciff-goaluix.github.io/
 	
+25. Pull Requests
+	Hago fork de adiazgalache
+	![alt text](https://github.com/goaluix/campusciff/blob/master/forkadiaz.png "Fork")
+	
+	Me clono el repositorio en local, creo una nueva rama, modifico y subo.
+	```sh
+	mkdir adiaz
+	git clone git@github.com:goaluix/campusciff-adiazgalache.github.io.git
+	git branch rama2
+	git checkout rama2
+	echo "Luis Nuño" >> index.html
+	git add .
+	git commit -m "mi nombre"
+	git push origin rama2
+	```
+	
+	Hago pullrequest
+		![alt text](https://github.com/goaluix/campusciff/blob/master/pullrequest.png "Pull request")
+		![alt text](https://github.com/goaluix/campusciff/blob/master/pullrequest2.png "Pull request")
+
+
 
 
 
