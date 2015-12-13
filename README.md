@@ -54,6 +54,9 @@ Repositorio para las prácticas del módulo Data Science ToolKit, Máster Execut
 	```sh
 	$ git branch v0.2
 	$ git checkout v0.2
+	$ echo "dos" > 2.txt
+	$ git add .
+	$ git commit -m "Añadido 2.txt "
 	``` 
 11. Compruebo que el head apunta a mi nueva rama
 	```sh
@@ -63,6 +66,7 @@ Repositorio para las prácticas del módulo Data Science ToolKit, Máster Execut
 	* ef73f30 añadido .gitignore
 	* 0253712 commit inicial
 	* 2e5d166 Initial commit
+	$ git push origin master
 	``` 
 12. Me posiciono de nuevo en master y hago merge con v0.2
 	```sh
