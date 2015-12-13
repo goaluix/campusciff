@@ -147,3 +147,14 @@ $ git log --oneline --decorate --graph --all
 19. Clave pública. Ya estaba añadida
 	![alt text](https://github.com/goaluix/campusciff/blob/master/ssh.png "ssh")
 	
+20. Tabla con compañeros
+	Nombre | Github
+	------- | -------
+	MiguelCerdan | https://github.com/MiguelCerdan/campusciff.git
+	adiazgalache | https://github.com/adiazgalache/campusciff.git
+	macarenagaranena| https://github.com/macarenagaranena/campusciff.git
+	plopez76 | https://github.com/plopez76/campusciff.git
+
+21. 
+
+	
