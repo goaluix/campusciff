@@ -3,62 +3,65 @@ Repositorio para las prácticas del módulo Data Science ToolKit, Máster Execut
 
 ### Comandos utilizados y descripción
 
-0. Creo desde github un repositorio llamado campusciff. Además, desde la terminal, creo en mi equipo un directorio llamado ejercicio y accedo a él.
+1. Creo desde github un repositorio llamado campusciff. Se marca la opción para crear automáticamente un README.md. Además, desde la terminal, creo en mi equipo un directorio llamado ejercicio y accedo a él, inicializando el repositorio.
+	```sh
+	$ mkdir ejercicio
+	$ cd ejercicio
+	$ git init
+	```	
 
-1. Clono el repositorio remoto
+2. Clono el repositorio remoto (se trae el README.md)
 
 	```sh
 	$ git clone git@github.com:goaluix/campusciff.git
 	```
 
-2. Subo al stage
+3. Subo al stage
 	```sh
 	$ git add .
 	```
-3. Commit inicial
+4. Commit inicial
 	```sh
 	$ git commit -m "commit inicial"
 	```
 
-
-4. Creo archivo y carpeta privada
+5. Creo archivo y carpeta privada
 	```sh
 	$ echo "contraseña 1234" > privado.txt
 	$ mkdir privada
 	```
 
-5. Abro el editor vi y creo .gitignore con dos líneas para que se ignoren ese archivo y carpeta
+6. Abro el editor vi y creo el archivo .gitignore con dos líneas para que se ignoren ese archivo y carpeta
 	![alt text](https://github.com/goaluix/campusciff/blob/master/captura_vi.png "Editor vi")
-6. Creo 1.txt
+
+7. Creo 1.txt
 	```sh
 	$ echo "One" > 1.txt
 	```
 
-7. Subo .gitignore y 1.txt
+8. Subo .gitignore y 1.txt
 	```sh
 	$ git add .
 	$ git commit -m "añadido .gitignore"
 	```
-8. Actualizo README.md
+9. Actualizo README.md (Esto se hará recurrentemente, según vaya actualizando la documentación)
 	```sh
 	$ git add .
 	$ git commit -m "actulizado README.md"
 	```
 
-9. Creo y subo etiquetas
+10. Creo y subo etiquetas
 	```sh
 	$ git tag v0.1
 	$ git push --tag origin master
 	``` 
-10. Creo rama v0.2 y me posiciono en ella
+11. Creo rama v0.2 y me posiciono en ella.
 	```sh
 	$ git branch v0.2
 	$ git checkout v0.2
-	$ echo "dos" > 2.txt
-	$ git add .
-	$ git commit -m "Añadido 2.txt "
 	``` 
-11. Compruebo que el head apunta a mi nueva rama
+
+12. Compruebo que el head apunta a mi nueva rama. Creo fichero 2.txt y lo subo
 	```sh
 	$ git log --oneline --decorate --graph --all
 	* ac67a3e (HEAD -> v0.2, origin/master, origin/HEAD, master) README.md actualizado
@@ -66,9 +69,13 @@ Repositorio para las prácticas del módulo Data Science ToolKit, Máster Execut
 	* ef73f30 añadido .gitignore
 	* 0253712 commit inicial
 	* 2e5d166 Initial commit
+	$ echo "dos" > 2.txt
+	$ git add .
+	$ git commit -m "Añadido 2.txt "
 	$ git push origin v0.2
 	``` 
-12. Me posiciono de nuevo en master y hago merge con v0.2
+
+13. Me posiciono de nuevo en master y hago merge con v0.2
 	```sh
 	$ git checkout master
 	$ git merge v0.2
