@@ -112,4 +112,21 @@ Repositorio para las prácticas del módulo Data Science ToolKit, Máster Execut
 	```sh
 	$ git branch -d v0.2
 	```
+16. Listo los distintos commits
+	```sh
+$ git log --oneline --decorate --graph --all
+* 0d4efd1 (HEAD -> master, origin/master, origin/HEAD) README.md formateado
+* 5ae73f0 README.md actualizado
+*   f7b1d43 (tag: v0.2) conflicto resuelto entre master y v0.2
+|\
+| * 25dd144 añadido adios a 1.txt (v0.2)
+* | 8befef5 añadido hola a 1.txt
+|/
+* 03a4977 (origin/v0.2) Añadido 2.txt
+* ac67a3e README.md actualizado
+* e5f5e49 (tag: v0.1) actulizado README.md
+* ef73f30 añadido .gitignore
+* 0253712 commit inicial
+* 2e5d166 Initial commit
+	```
 
