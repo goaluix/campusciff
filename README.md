@@ -154,14 +154,41 @@ $ git log --oneline --decorate --graph --all
 19. Clave pública. Ya estaba añadida
 	![alt text](https://github.com/goaluix/campusciff/blob/master/ssh.png "ssh")
 	
-20. Tabla con compañeros
-	Nombre | Github
-	------- | -------
-	MiguelCerdan | https://github.com/MiguelCerdan/campusciff.git
-	adiazgalache | https://github.com/adiazgalache/campusciff.git
-	macarenagaranena| https://github.com/macarenagaranena/campusciff.git
-	plopez76 | https://github.com/plopez76/campusciff.git
 
-21. 
+	
+20. Uso social. Sigo a 4 compañeros y repositorios y añado estrellas a sus repositorios
+	![alt text](https://github.com/goaluix/campusciff/blob/master/colaborar.png "Uso social")
+		
+	
+21. Tabla con compañeros
+
+	| Nombre | Github |
+	| ---------- | ---------- |
+	| MiguelCerdan  | https://github.com/MiguelCerdan/campusciff.git   |
+	| adiazgalache   | https://github.com/adiazgalache/campusciff.git   |
+	| macarenagaranena  | https://github.com/macarenagaranena/campusciff.git   |
+
+
+22. Colaborador
+	![alt text](https://github.com/goaluix/campusciff/blob/master/colaborador.png "Colaborador")
+	
+	
+23. Organización y equipos
+
+	![alt text](https://github.com/goaluix/campusciff/blob/master/colaboradores.png "Colaborador")
+	![alt text](https://github.com/goaluix/campusciff/blob/master/administradores.png "Colaborador")
+
+24. index.html
+
+	Creo un repositorio campusciff-goaluix dentro de la organización
+	
+
+
+
+
+
+
+	
+
 
 	
